@@ -11,16 +11,20 @@
   </head>
   <body>
         <div class="mainContainer">
-            <div class="topBar">
-                <div class="cell small-6">
-                    <div class="text-center">
-                        <h1>Progressive Web Apps demo</h1>
+            <div class="grid-x">
+                <div class="cell small-12">
+                    <div class="topBar">
+                        <div class="text-center">
+                            <h1>Progressive Web Apps demo</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="contentContainer">
-                <div class="text-center">
-                    <p>Place content here</p>
+                <div class="cell large-12">
+                    <div class="contentContainer">
+                        <div class="text-center">
+                            <button type="button" id="getGPS" class="button" onclick="getLocation()">get GPS coordinate</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,5 +32,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/gps.js"></script>
   </body>
 </html>
